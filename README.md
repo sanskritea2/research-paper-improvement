@@ -1,3 +1,12 @@
+## Improvements Over Original LightRAG
+
+| Component | Original LightRAG | Enterprise-LightRAG |
+|------------|------------------|---------------------|
+| Graph Storage | In-Memory Graph | Neo4j Graph Database |
+| Retrieval | Graph-Based Retrieval | Hybrid BM25 + Vector Search |
+| Ranking | Standard Retrieval | Reciprocal Rank Fusion |
+| Query Processing | Basic Queries | Query Compression |
+| Scalability | Research Prototype | Enterprise-Oriented Design |
 # Enterprise-LightRAG
 
 ## Overview
